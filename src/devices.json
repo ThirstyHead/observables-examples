@@ -1,0 +1,3192 @@
+{
+  "total_rows": 22,
+  "offset": 0,
+  "rows": [
+    {
+      "id": "QSC:Boulder:10.104.128.106:6504",
+      "key": "QSC:Boulder:10.104.128.106:6504",
+      "value": {
+        "rev": "1-e1139932cd7a8353292a421f2e48c793"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.106:6504",
+        "_rev": "1-e1139932cd7a8353292a421f2e48c793",
+        "QDP": {
+          "device": {
+            "name": "core-c04c",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 110f",
+            "ref": "device.core.core-c04c",
+            "lan_a_ip": "10.104.128.106",
+            "lan_a_lldp": "e0:2f:6d:39:39:00+Gi1\/0\/17",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 110f",
+              "device_model_code": "110",
+              "device_name": "Core-c04c",
+              "firmware_version": "5.1.31",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "untitled",
+                "code_name": "pLXPSvvgIC1E",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "420088",
+                "uptime": "4 Days 20 Hours 41 Minutes 28 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth1",
+                  "address": "10.104.128.106",
+                  "mask": "255.255.192.0",
+                  "mac_address": "00:19:0F:21:C0:4D",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "131648219",
+                  "recv_errs": "0",
+                  "recv_drop": "0",
+                  "recv_bytes": "24219147098",
+                  "xmit_packets": "13534641",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "4548394263",
+                  "link": "UP",
+                  "chassis": "e0:2f:6d:39:39:00",
+                  "port": "Gi1\/0\/17",
+                  "system_name": "us-bo1-3750-sw01.qscaudio.com",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:08.050Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "untitled",
+            "design_code": "pLXPSvvgIC1E",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.core-c04c",
+            "ref": "control.pLXPSvvgIC1E.core.primary"
+          },
+          "query_ref": [
+            "control.pLXPSvvgIC1E.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "core-c04c",
+              "Type": "Core",
+              "Model": "Core110f",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "tsc7-dynamic",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-BK",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Not Present",
+                "Code": 3
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.114:6504",
+      "key": "QSC:Boulder:10.104.128.114:6504",
+      "value": {
+        "rev": "1-c920f61405e0794cf282468b7c785b88"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.114:6504",
+        "_rev": "1-c920f61405e0794cf282468b7c785b88",
+        "QDP": {
+          "device": {
+            "name": "core-skumar-110",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 110f",
+            "ref": "device.core.core-skumar-110",
+            "lan_a_ip": "10.104.128.114",
+            "lan_a_lldp": "",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 110f",
+              "device_model_code": "110",
+              "device_name": "Core-skumar-110",
+              "firmware_version": "5.1.31",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "simple-softphone-retries",
+                "code_name": "aREd3wETEKXv",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "76619",
+                "uptime": "21 Hours 16 Minutes 59 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth1",
+                  "address": "10.104.128.114",
+                  "mask": "255.255.192.0",
+                  "mac_address": "00:19:0F:23:AF:65",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "171278389",
+                  "recv_errs": "0",
+                  "recv_drop": "0",
+                  "recv_bytes": "31632378663",
+                  "xmit_packets": "65374239",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "8136169095",
+                  "link": "UP",
+                  "chassis": "",
+                  "port": "",
+                  "system_name": "",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:12.126Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "simple-softphone-retries",
+            "design_code": "aREd3wETEKXv",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.core-skumar-110",
+            "ref": "control.aREd3wETEKXv.core.primary"
+          },
+          "query_ref": [
+            "control.aREd3wETEKXv.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "core-skumar-110",
+              "Type": "Core",
+              "Model": "Core110f",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Softphone-1",
+              "Type": "Streaming I\/O",
+              "Model": "Softphone",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "io22-skumar",
+              "Type": "Peripheral",
+              "Model": "I\/O-22",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.117:6504",
+      "key": "QSC:Boulder:10.104.128.117:6504",
+      "value": {
+        "rev": "1-05e24dde954758ce581b8e3ec21a0c83"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.117:6504",
+        "_rev": "1-05e24dde954758ce581b8e3ec21a0c83",
+        "QDP": {
+          "device": {
+            "name": "core-110f-joelsdesk",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 110f",
+            "ref": "device.core.core-110f-joelsdesk",
+            "lan_a_ip": "10.104.128.117",
+            "lan_a_lldp": "",
+            "lan_b_ip": "10.10.7.24",
+            "lan_b_lldp": "2c:36:f8:4c:7d:3f+gi5",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 110f",
+              "device_model_code": "110",
+              "device_name": "Core-110f-JoelsDesk",
+              "firmware_version": "5.1.31",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "110f_UCI_test",
+                "code_name": "4MeDvoPjWJID",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "159230",
+                "uptime": "1 Day 20 Hours 13 Minutes 50 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": [
+                  {
+                    "name": "LAN A",
+                    "linux_device_name": "eth1",
+                    "address": "10.104.128.117",
+                    "mask": "255.255.192.0",
+                    "mac_address": "00:19:0F:21:C0:41",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "60711335",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "9857098885",
+                    "xmit_packets": "26138290",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "4270104028",
+                    "link": "UP",
+                    "chassis": "",
+                    "port": "",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  },
+                  {
+                    "name": "LAN B",
+                    "linux_device_name": "eth0",
+                    "address": "10.10.7.24",
+                    "mask": "255.255.255.0",
+                    "mac_address": "00:19:0F:21:C0:40",
+                    "broadcast": "10.10.7.255",
+                    "gateway": "0.0.0.0",
+                    "recv_packets": "35922296",
+                    "recv_errs": "11",
+                    "recv_drop": "0",
+                    "recv_bytes": "2646268306",
+                    "xmit_packets": "125373631",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "185200577941",
+                    "link": "UP",
+                    "chassis": "2c:36:f8:4c:7d:3f",
+                    "port": "gi5",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  }
+                ]
+              },
+              "timestamp": "2016-02-03T16:21:08.063Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "110f_UCI_test",
+            "design_code": "4MeDvoPjWJID",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.core-110f-joelsdesk",
+            "ref": "control.4MeDvoPjWJID.core.primary"
+          },
+          "query_ref": [
+            "control.4MeDvoPjWJID.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "Core-110f-JoelsDesk",
+              "Type": "Core",
+              "Model": "Core110f",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "TSC-7",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-BK",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "TSC-7a",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-BK",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "TSC-8",
+              "Type": "Touch Screen",
+              "Model": "TSC-8",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.137:6504",
+      "key": "QSC:Boulder:10.104.128.137:6504",
+      "value": {
+        "rev": "1-abf8cacbed21fa8f161e53396682efcb"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.137:6504",
+        "_rev": "1-abf8cacbed21fa8f161e53396682efcb",
+        "QDP": {
+          "device": {
+            "name": "core-jbb",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 110f",
+            "ref": "device.core.core-jbb",
+            "lan_a_ip": "10.104.128.137",
+            "lan_a_lldp": "64:d8:14:60:bd:b7+gi2",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 110f",
+              "device_model_code": "110",
+              "device_name": "core-jbb",
+              "firmware_version": "dev.58",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "untitled",
+                "code_name": "ttuPlUpkgGnR",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "74424",
+                "uptime": "20 Hours 40 Minutes 24 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth1",
+                  "address": "10.104.128.137",
+                  "mask": "255.255.192.0",
+                  "mac_address": "00:19:0F:23:AF:6D",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "159783224",
+                  "recv_errs": "0",
+                  "recv_drop": "0",
+                  "recv_bytes": "78331559262",
+                  "xmit_packets": "4545732",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "869558557",
+                  "link": "UP",
+                  "chassis": "64:d8:14:60:bd:b7",
+                  "port": "gi2",
+                  "system_name": "",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:06.073Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "untitled",
+            "design_code": "ttuPlUpkgGnR",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.core-jbb",
+            "ref": "control.ttuPlUpkgGnR.core.primary"
+          },
+          "query_ref": [
+            "control.ttuPlUpkgGnR.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "core-jbb",
+              "Type": "Core",
+              "Model": "Core110f",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "AES67-RX",
+              "Type": "Streaming I\/O",
+              "Model": "AES67 Receiver",
+              "Location": "Default Location"
+            },
+            {
+              "Name": "AES67-TX",
+              "Type": "Streaming I\/O",
+              "Model": "AES67 Transmitter",
+              "Location": "Default Location"
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.139:6504",
+      "key": "QSC:Boulder:10.104.128.139:6504",
+      "value": {
+        "rev": "1-81b804301ff92d79eab62162db3e1396"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.139:6504",
+        "_rev": "1-81b804301ff92d79eab62162db3e1396",
+        "QDP": {
+          "device": {
+            "name": "dwl-110f",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 110f",
+            "ref": "device.core.dwl-110f",
+            "lan_a_ip": "10.104.128.139",
+            "lan_a_lldp": "6c:19:8f:a0:8c:03+",
+            "lan_b_ip": "10.104.128.143",
+            "lan_b_lldp": "6c:19:8f:a0:8c:03+",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 110f",
+              "device_model_code": "110",
+              "device_name": "dwl-110f",
+              "firmware_version": "5.1.31",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "derek 5.1 test tsc7 usb",
+                "code_name": "2Jee0i5W8iCP",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "141428",
+                "uptime": "1 Day 15 Hours 17 Minutes 8 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": [
+                  {
+                    "name": "LAN A",
+                    "linux_device_name": "eth1",
+                    "address": "10.104.128.139",
+                    "mask": "255.255.192.0",
+                    "mac_address": "00:19:0F:21:C0:15",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "74965572",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "27166664819",
+                    "xmit_packets": "34311353",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "4381813353",
+                    "link": "UP",
+                    "chassis": "6c:19:8f:a0:8c:03",
+                    "port": "",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  },
+                  {
+                    "name": "LAN B",
+                    "linux_device_name": "eth0",
+                    "address": "10.104.128.143",
+                    "mask": "255.255.192.0",
+                    "mac_address": "00:19:0F:21:C0:14",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "65345404",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "20411121406",
+                    "xmit_packets": "55876062",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "37098567206",
+                    "link": "UP",
+                    "chassis": "6c:19:8f:a0:8c:03",
+                    "port": "",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  }
+                ]
+              },
+              "timestamp": "2016-02-03T16:21:06.139Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "derek 5.1 test tsc7 usb",
+            "design_code": "2Jee0i5W8iCP",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.dwl-110f",
+            "ref": "control.2Jee0i5W8iCP.core.primary"
+          },
+          "query_ref": [
+            "control.2Jee0i5W8iCP.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "dwl-110f",
+              "Type": "Core",
+              "Model": "Core110f",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "MS-TX-1",
+              "Type": "Streaming I\/O",
+              "Model": "Media Stream Transmitter",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK - Streaming",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Amplifier-2",
+              "Type": "Amplifier",
+              "Model": "CX602V",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-3",
+              "Type": "Loudspeaker",
+              "Model": "AD-S52",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-4",
+              "Type": "Loudspeaker",
+              "Model": "AD-S52",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-1",
+              "Type": "Loudspeaker",
+              "Model": "AD-S52",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Fault - Open circuit",
+                "Code": 2
+              }
+            },
+            {
+              "Name": "Speaker-2",
+              "Type": "Loudspeaker",
+              "Model": "AD-S52",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Fault - Open circuit",
+                "Code": 2
+              }
+            },
+            {
+              "Name": "Speaker-5",
+              "Type": "Loudspeaker",
+              "Model": "AD-S52",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Fault - Open circuit",
+                "Code": 2
+              }
+            },
+            {
+              "Name": "Speaker-6",
+              "Type": "Loudspeaker",
+              "Model": "AD-S52",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Fault - Open circuit",
+                "Code": 2
+              }
+            },
+            {
+              "Name": "IOFrame8S-derek",
+              "Type": "Peripheral",
+              "Model": "I\/O-Frame8S",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Compromised - LAN B communication failure, Input stream LAN B broken, Output stream LAN B broken",
+                "Code": 1
+              }
+            },
+            {
+              "Name": "TSC7-dwl-3",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-T-BK",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Compromised - LAN A communication failure, Input stream LAN A broken, Output stream LAN A broken",
+                "Code": 1
+              }
+            },
+            {
+              "Name": "cxdq-derek",
+              "Type": "Amplifier",
+              "Model": "CXD4.3Q",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.140:6504",
+      "key": "QSC:Boulder:10.104.128.140:6504",
+      "value": {
+        "rev": "1-099df68f34c1e59af3a22e77314eff50"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.140:6504",
+        "_rev": "1-099df68f34c1e59af3a22e77314eff50",
+        "QDP": {
+          "device": {
+            "name": "core-joepv-2",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core",
+            "ref": "device.core.core-joepv-2",
+            "lan_a_ip": "10.104.128.140",
+            "lan_a_lldp": "e0:2f:6d:39:39:00+Gi1\/0\/45",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 1000",
+              "device_model_code": "1000",
+              "device_name": "Core-JoePV-2",
+              "firmware_version": "5.1.24",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "Telephone Paging Test",
+                "code_name": "XGyVBhSLOiBx",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "432338",
+                "uptime": "5 Days  0 Hours 5 Minutes 38 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth2",
+                  "address": "10.104.128.140",
+                  "mask": "255.255.192.0",
+                  "mac_address": "00:1B:21:9B:7C:86",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "126678200",
+                  "recv_errs": "0",
+                  "recv_drop": "0",
+                  "recv_bytes": "24424145943",
+                  "xmit_packets": "4573646",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "1653556433",
+                  "link": "UP",
+                  "chassis": "e0:2f:6d:39:39:00",
+                  "port": "Gi1\/0\/45",
+                  "system_name": "us-bo1-3750-sw01.qscaudio.com",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:04.969Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "Telephone Paging Test",
+            "design_code": "XGyVBhSLOiBx",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.core-joepv-2",
+            "ref": "control.XGyVBhSLOiBx.core.primary"
+          },
+          "query_ref": [
+            "control.XGyVBhSLOiBx.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "Core-JoePV-2",
+              "Type": "Core",
+              "Model": "Core1000",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Softphone-1",
+              "Type": "Streaming I\/O",
+              "Model": "Softphone",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "IO-22-JoePV",
+              "Type": "Peripheral",
+              "Model": "I\/O-22",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Missing",
+                "Code": 4
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.145:6504",
+      "key": "QSC:Boulder:10.104.128.145:6504",
+      "value": {
+        "rev": "1-d5226a3ac776d85b8eb1a4f4514191f2"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.145:6504",
+        "_rev": "1-d5226a3ac776d85b8eb1a4f4514191f2",
+        "QDP": {
+          "device": {
+            "name": "core-works",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 500i",
+            "ref": "device.core.core-works",
+            "lan_a_ip": "10.104.128.145",
+            "lan_a_lldp": "44:d3:ca:4e:26:80+Gi1\/0\/33",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 500i",
+              "device_model_code": "500",
+              "device_name": "core-works",
+              "firmware_version": "5.1.28",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "works2",
+                "code_name": "MR4iM5Y7zzC0",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "505334",
+                "uptime": "5 Days 20 Hours 22 Minutes 14 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth2",
+                  "address": "10.104.128.145",
+                  "mask": "255.255.192.0",
+                  "mac_address": "00:60:74:FF:7C:6A",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "151241990",
+                  "recv_errs": "0",
+                  "recv_drop": "0",
+                  "recv_bytes": "29345338431",
+                  "xmit_packets": "4155614",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "1777609538",
+                  "link": "UP",
+                  "chassis": "44:d3:ca:4e:26:80",
+                  "port": "Gi1\/0\/33",
+                  "system_name": "us-bo1-3750-sw02.qscaudio.com",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:04.966Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "works2",
+            "design_code": "MR4iM5Y7zzC0",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.core-works",
+            "ref": "control.MR4iM5Y7zzC0.core.primary"
+          },
+          "query_ref": [
+            "control.MR4iM5Y7zzC0.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "core-works",
+              "Type": "Core",
+              "Model": "Core500i",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Compromised - Slot D No Link",
+                "Code": 1
+              }
+            },
+            {
+              "Name": "MS-RX-1",
+              "Type": "Streaming I\/O",
+              "Model": "Media Stream Receiver",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Initializing",
+                "Code": 5
+              }
+            },
+            {
+              "Name": "tsc3-works",
+              "Type": "Touch Screen",
+              "Model": "TSC-3",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Missing",
+                "Code": 4
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.147:6504",
+      "key": "QSC:Boulder:10.104.128.147:6504",
+      "value": {
+        "rev": "1-494832fd9df24e2d9ab40ae08508b919"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.147:6504",
+        "_rev": "1-494832fd9df24e2d9ab40ae08508b919",
+        "QDP": {
+          "device": {
+            "name": "conference-110",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 110f",
+            "ref": "device.core.conference-110",
+            "lan_a_ip": "10.104.128.147",
+            "lan_a_lldp": "78:54:2e:18:8d:02+",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 110f",
+              "device_model_code": "110",
+              "device_name": "conference-110",
+              "firmware_version": "dev.55",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "Boulder Upstairs Conference Room Core 110 v3",
+                "code_name": "h0KbOV46YyP3",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "661544",
+                "uptime": "7 Days 15 Hours 45 Minutes 44 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth1",
+                  "address": "10.104.128.147",
+                  "mask": "255.255.192.0",
+                  "mac_address": "00:19:0F:23:AF:83",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "413053899",
+                  "recv_errs": "0",
+                  "recv_drop": "0",
+                  "recv_bytes": "89875183659",
+                  "xmit_packets": "224373560",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "67844296361",
+                  "link": "UP",
+                  "chassis": "78:54:2e:18:8d:02",
+                  "port": "",
+                  "system_name": "",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:06.104Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "Boulder Upstairs Conference Room Core 110 v3",
+            "design_code": "h0KbOV46YyP3",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.conference-110",
+            "ref": "control.h0KbOV46YyP3.core.primary"
+          },
+          "query_ref": [
+            "control.h0KbOV46YyP3.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "conference-110",
+              "Type": "Core",
+              "Model": "Core110f",
+              "Location": "Conference Room",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "ConfDialer-iPhone",
+              "Type": "Peripheral",
+              "Model": "UCI Viewer",
+              "Location": "Cloud",
+              "Status": {
+                "Message": "Not Present - No clients connected",
+                "Code": 3
+              }
+            },
+            {
+              "Name": "Softphone-1",
+              "Type": "Streaming I\/O",
+              "Model": "Softphone",
+              "Location": "Cloud",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "MS-RX-1",
+              "Type": "Streaming I\/O",
+              "Model": "Media Stream Receiver",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Not Present - Disabled",
+                "Code": 3
+              }
+            },
+            {
+              "Name": "Amplifier-1",
+              "Type": "Amplifier",
+              "Model": "CX254",
+              "Location": "IT Room",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Amplifier-2",
+              "Type": "Amplifier",
+              "Model": "CX302",
+              "Location": "IT Room",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-1",
+              "Type": "Loudspeaker",
+              "Model": "AD-CI52T",
+              "Location": "Conference Room",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-2",
+              "Type": "Loudspeaker",
+              "Model": "AD-CI52T",
+              "Location": "Conference Room",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-3",
+              "Type": "Loudspeaker",
+              "Model": "AD-CI52T",
+              "Location": "Conference Room",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-4",
+              "Type": "Loudspeaker",
+              "Model": "AD-CI52T",
+              "Location": "Conference Room",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-5",
+              "Type": "Loudspeaker",
+              "Model": "AD-CI52T",
+              "Location": "Conference Room",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-6",
+              "Type": "Loudspeaker",
+              "Model": "AD-CI52T",
+              "Location": "Conference Room",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "TSC7t-UpperConf",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-BK",
+              "Location": "Conference Room",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "iof-conf-rack",
+              "Type": "Peripheral",
+              "Model": "I\/O-Frame",
+              "Location": "IT Room",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "iof-conf-room",
+              "Type": "Peripheral",
+              "Model": "I\/O-Frame",
+              "Location": "Conference Room",
+              "Status": {
+                "Message": "Not Present",
+                "Code": 3
+              }
+            },
+            {
+              "Name": "tsc3-conf",
+              "Type": "Touch Screen",
+              "Model": "TSC-3",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "tsc3-hallway",
+              "Type": "Touch Screen",
+              "Model": "TSC-3",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.154:6504",
+      "key": "QSC:Boulder:10.104.128.154:6504",
+      "value": {
+        "rev": "1-1c4f37de42ca4fdaff5fb48b7826eb88"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.154:6504",
+        "_rev": "1-1c4f37de42ca4fdaff5fb48b7826eb88",
+        "QDP": {
+          "device": {
+            "name": "dwl-250i",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 250i",
+            "ref": "device.core.dwl-250i",
+            "lan_a_ip": "10.104.128.154",
+            "lan_a_lldp": "6c:19:8f:a0:8c:03+",
+            "lan_b_ip": "10.104.128.155",
+            "lan_b_lldp": "6c:19:8f:a0:8c:03+",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 250i",
+              "device_model_code": "250",
+              "device_name": "dwl-250i",
+              "firmware_version": "0.1.652",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "trivial_dialer-dwl-250i-version-3",
+                "code_name": "QBrdDKHbjOyG",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "757343",
+                "uptime": "8 Days 18 Hours 22 Minutes 23 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": [
+                  {
+                    "name": "LAN A",
+                    "linux_device_name": "eth0",
+                    "address": "10.104.128.154",
+                    "mask": "255.255.192.0",
+                    "mac_address": "E8:40:F2:C2:6C:A7",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "228357549",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "43227395815",
+                    "xmit_packets": "5096256",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "2822281657",
+                    "link": "UP",
+                    "chassis": "6c:19:8f:a0:8c:03",
+                    "port": "",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  },
+                  {
+                    "name": "LAN B \/ AUX",
+                    "linux_device_name": "eth1",
+                    "address": "10.104.128.155",
+                    "mask": "255.255.192.0",
+                    "mac_address": "68:05:CA:10:40:A7",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "210178126",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "36371654308",
+                    "xmit_packets": "2209336",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "1669120453",
+                    "link": "UP",
+                    "chassis": "6c:19:8f:a0:8c:03",
+                    "port": "",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  }
+                ]
+              },
+              "timestamp": "2016-02-03T16:21:06.058Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "trivial_dialer-dwl-250i-version-3",
+            "design_code": "QBrdDKHbjOyG",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.dwl-250i",
+            "ref": "control.QBrdDKHbjOyG.core.primary"
+          },
+          "query_ref": [
+            "control.QBrdDKHbjOyG.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "dwl-250i",
+              "Type": "Core",
+              "Model": "Core250i",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "TheNAmeOfTheSoftphone",
+              "Type": "Streaming I\/O",
+              "Model": "Softphone",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "IO22-max",
+              "Type": "Peripheral",
+              "Model": "I\/O-22",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Not Present",
+                "Code": 3
+              }
+            },
+            {
+              "Name": "ps-800h-max",
+              "Type": "Page Station",
+              "Model": "PS-800H",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Not Present",
+                "Code": 3
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.175:6504",
+      "key": "QSC:Boulder:10.104.128.175:6504",
+      "value": {
+        "rev": "1-86a47a235f19ea57dd633e5aa6f9374c"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.175:6504",
+        "_rev": "1-86a47a235f19ea57dd633e5aa6f9374c",
+        "QDP": {
+          "device": {
+            "name": "jeff-110i",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 110f",
+            "ref": "device.core.jeff-110i",
+            "lan_a_ip": "10.104.128.175",
+            "lan_a_lldp": "88:f0:77:d7:a2:ff+gi7",
+            "lan_b_ip": "10.104.128.133",
+            "lan_b_lldp": "88:f0:77:d7:a2:ff+gi21",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 110f",
+              "device_model_code": "110",
+              "device_name": "jeff-110i",
+              "firmware_version": "aes67",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "test",
+                "code_name": "UsqRO8Au5UCz",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "73430",
+                "uptime": "20 Hours 23 Minutes 50 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": [
+                  {
+                    "name": "LAN A",
+                    "linux_device_name": "eth1",
+                    "address": "10.104.128.175",
+                    "mask": "255.255.192.0",
+                    "mac_address": "00:19:0F:21:C0:45",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "94708099",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "92656313306",
+                    "xmit_packets": "7711224",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "1043526809",
+                    "link": "UP",
+                    "chassis": "88:f0:77:d7:a2:ff",
+                    "port": "gi7",
+                    "system_name": "switchd7a2ff",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  },
+                  {
+                    "name": "LAN B",
+                    "linux_device_name": "eth0",
+                    "address": "10.104.128.133",
+                    "mask": "255.255.192.0",
+                    "mac_address": "00:19:0F:21:C0:44",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "20864067",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "3480695862",
+                    "xmit_packets": "2104048",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "413874580",
+                    "link": "UP",
+                    "chassis": "88:f0:77:d7:a2:ff",
+                    "port": "gi21",
+                    "system_name": "switchd7a2ff",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  }
+                ]
+              },
+              "timestamp": "2016-02-03T16:22:01.838Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "test",
+            "design_code": "UsqRO8Au5UCz",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.jeff-110i",
+            "ref": "control.UsqRO8Au5UCz.core.primary"
+          },
+          "query_ref": [
+            "control.UsqRO8Au5UCz.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "jeff-110i",
+              "Type": "Core",
+              "Model": "Core110f",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "AES67-RX",
+              "Type": "Streaming I\/O",
+              "Model": "AES67 Receiver",
+              "Location": "Default Location"
+            },
+            {
+              "Name": "TSC-1",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-T-BK",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Missing",
+                "Code": 4
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.32:6504",
+      "key": "QSC:Boulder:10.104.128.32:6504",
+      "value": {
+        "rev": "1-aa899483574acd1417a95aa3b5fbbae8"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.32:6504",
+        "_rev": "1-aa899483574acd1417a95aa3b5fbbae8",
+        "QDP": {
+          "device": {
+            "name": "core-afbc",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 110f",
+            "ref": "device.core.core-afbc",
+            "lan_a_ip": "10.104.128.32",
+            "lan_a_lldp": "90:8d:78:94:2b:a3+",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 110f",
+              "device_model_code": "110",
+              "device_name": "core-afbc",
+              "firmware_version": "5.1.2",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "Victor's Test Design",
+                "code_name": "UkOjw7DCsQVf",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "2233740",
+                "uptime": "25 Days 20 Hours 29 Minutes 0 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth1",
+                  "address": "10.104.128.32",
+                  "mask": "255.255.192.0",
+                  "mac_address": "00:19:0F:23:AF:BD",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "979562133",
+                  "recv_errs": "0",
+                  "recv_drop": "0",
+                  "recv_bytes": "159376251173",
+                  "xmit_packets": "159252534",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "25445024365",
+                  "link": "UP",
+                  "chassis": "90:8d:78:94:2b:a3",
+                  "port": "",
+                  "system_name": "",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:10.978Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "Victor's Test Design",
+            "design_code": "UkOjw7DCsQVf",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.core-afbc",
+            "ref": "control.UkOjw7DCsQVf.core.primary"
+          },
+          "query_ref": [
+            "control.UkOjw7DCsQVf.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "Core-afbc",
+              "Type": "Core",
+              "Model": "Core110f",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "TSC7-e6cb",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-BK",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Missing",
+                "Code": 4
+              }
+            },
+            {
+              "Name": "tsc7-9c47",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-BK",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Missing",
+                "Code": 4
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.34:6504",
+      "key": "QSC:Boulder:10.104.128.34:6504",
+      "value": {
+        "rev": "1-2a45d45f76c398a1a3d85b7957814bd7"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.34:6504",
+        "_rev": "1-2a45d45f76c398a1a3d85b7957814bd7",
+        "QDP": {
+          "device": {
+            "name": "core-scott2",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 110f",
+            "ref": "device.core.core-scott2",
+            "lan_a_ip": "10.104.128.34",
+            "lan_a_lldp": "88:f0:77:54:89:16+gi1",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 110f",
+              "device_model_code": "110",
+              "device_name": "core-scott2",
+              "firmware_version": "0.1.654",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "Ryan USB Video Test",
+                "code_name": "h6NYGEFvO3eH",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "414570",
+                "uptime": "4 Days 19 Hours 9 Minutes 30 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth1",
+                  "address": "10.104.128.34",
+                  "mask": "255.255.192.0",
+                  "mac_address": "00:19:0F:25:87:10",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "206547683",
+                  "recv_errs": "0",
+                  "recv_drop": "0",
+                  "recv_bytes": "33454610727",
+                  "xmit_packets": "45192698",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "13979260257",
+                  "link": "UP",
+                  "chassis": "88:f0:77:54:89:16",
+                  "port": "gi1",
+                  "system_name": "",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:13.162Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "Ryan USB Video Test",
+            "design_code": "h6NYGEFvO3eH",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.core-scott2",
+            "ref": "control.h6NYGEFvO3eH.core.primary"
+          },
+          "query_ref": [
+            "control.h6NYGEFvO3eH.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "core-scott2",
+              "Type": "Core",
+              "Model": "Core110f",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "tsc7-ryan",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-BK",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.52:6504",
+      "key": "QSC:Boulder:10.104.128.52:6504",
+      "value": {
+        "rev": "1-7e88f54c381cead2305ae1a3e6abfb86"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.52:6504",
+        "_rev": "1-7e88f54c381cead2305ae1a3e6abfb86",
+        "QDP": {
+          "device": {
+            "name": "core-a11d",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 1100",
+            "ref": "device.core.core-a11d",
+            "lan_a_ip": "10.104.128.52",
+            "lan_a_lldp": "e0:5f:b9:b2:92:45+gi1\/1\/22",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 1100",
+              "device_model_code": "1100",
+              "device_name": "Core-a11d",
+              "firmware_version": "5.1.31",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "cxdq 83",
+                "code_name": "EroBTGKvB9J4",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "422908",
+                "uptime": "4 Days 21 Hours 28 Minutes 28 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth0",
+                  "address": "10.104.128.52",
+                  "mask": "255.255.192.0",
+                  "mac_address": "00:1E:67:9A:A1:1D",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "184793647",
+                  "recv_errs": "0",
+                  "recv_drop": "0",
+                  "recv_bytes": "75626874597",
+                  "xmit_packets": "108529625",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "20922199171",
+                  "link": "UP",
+                  "chassis": "e0:5f:b9:b2:92:45",
+                  "port": "gi1\/1\/22",
+                  "system_name": "",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:04.946Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "cxdq 83",
+            "design_code": "EroBTGKvB9J4",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.core-a11d",
+            "ref": "control.EroBTGKvB9J4.core.primary"
+          },
+          "query_ref": [
+            "control.EroBTGKvB9J4.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "core-a11d",
+              "Type": "Core",
+              "Model": "Core1100",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-3",
+              "Type": "Loudspeaker",
+              "Model": "AD-S12",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-4",
+              "Type": "Loudspeaker",
+              "Model": "AD-S12",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-5",
+              "Type": "Loudspeaker",
+              "Model": "AD-S32T",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Missing - Status unavailable",
+                "Code": 4
+              }
+            },
+            {
+              "Name": "Speaker-6",
+              "Type": "Loudspeaker",
+              "Model": "AD-S12",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Missing - Status unavailable",
+                "Code": 4
+              }
+            },
+            {
+              "Name": "Speaker-7",
+              "Type": "Loudspeaker",
+              "Model": "AD-S12",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Missing - Status unavailable",
+                "Code": 4
+              }
+            },
+            {
+              "Name": "cxdq-sean42",
+              "Type": "Amplifier",
+              "Model": "CXD4.2Q",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "cxdq-sean43",
+              "Type": "Amplifier",
+              "Model": "CXD4.3Q",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Missing",
+                "Code": 4
+              }
+            },
+            {
+              "Name": "cxdq45",
+              "Type": "Amplifier",
+              "Model": "CXD4.5Q",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Missing",
+                "Code": 4
+              }
+            },
+            {
+              "Name": "cxdq83",
+              "Type": "Amplifier",
+              "Model": "CXD8.3Q",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Missing",
+                "Code": 4
+              }
+            },
+            {
+              "Name": "io22-sean",
+              "Type": "Peripheral",
+              "Model": "I\/O-22",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.60:6504",
+      "key": "QSC:Boulder:10.104.128.60:6504",
+      "value": {
+        "rev": "1-a60641520b3ebd3fd54a8d488b962574"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.60:6504",
+        "_rev": "1-a60641520b3ebd3fd54a8d488b962574",
+        "QDP": {
+          "device": {
+            "name": "skumar-test",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 250i",
+            "ref": "device.core.skumar-test",
+            "lan_a_ip": "10.104.128.60",
+            "lan_a_lldp": "e0:5f:b9:b2:92:45+gi1\/1\/3",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 250i",
+              "device_model_code": "250",
+              "device_name": "SKumar-test",
+              "firmware_version": "5.1.31",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "trunk-long-test-audio-player",
+                "code_name": "FU4re0QohQRc",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "255262",
+                "uptime": "2 Days 22 Hours 54 Minutes 22 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth0",
+                  "address": "10.104.128.60",
+                  "mask": "255.255.192.0",
+                  "mac_address": "70:54:D2:C4:9D:CC",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "148140014",
+                  "recv_errs": "0",
+                  "recv_drop": "0",
+                  "recv_bytes": "28521053628",
+                  "xmit_packets": "61504121",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "11363190183",
+                  "link": "UP",
+                  "chassis": "e0:5f:b9:b2:92:45",
+                  "port": "gi1\/1\/3",
+                  "system_name": "",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:06.056Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "trunk-long-test-audio-player",
+            "design_code": "FU4re0QohQRc",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.skumar-test",
+            "ref": "control.FU4re0QohQRc.core.primary"
+          },
+          "query_ref": [
+            "control.FU4re0QohQRc.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "skumar-test",
+              "Type": "Core",
+              "Model": "Core250i",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "4191",
+              "Type": "Streaming I\/O",
+              "Model": "Softphone",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.61:6504",
+      "key": "QSC:Boulder:10.104.128.61:6504",
+      "value": {
+        "rev": "1-c6013598ba6cb6e36b10260ecbcb18f0"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.61:6504",
+        "_rev": "1-c6013598ba6cb6e36b10260ecbcb18f0",
+        "QDP": {
+          "device": {
+            "name": "jmc-250i",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 250i",
+            "ref": "device.core.jmc-250i",
+            "lan_a_ip": "10.104.128.61",
+            "lan_a_lldp": "",
+            "lan_b_ip": "10.10.7.11",
+            "lan_b_lldp": "2c:36:f8:4c:7d:3f+gi3",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 250i",
+              "device_model_code": "250",
+              "device_name": "jmc-250i",
+              "firmware_version": "0.1.673",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "Joel's DTS-X",
+                "code_name": "Mug0LvOVHR3r",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "1980",
+                "uptime": "33 Minutes 0 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": [
+                  {
+                    "name": "LAN A",
+                    "linux_device_name": "eth0",
+                    "address": "10.104.128.61",
+                    "mask": "255.255.192.0",
+                    "mac_address": "70:54:D2:17:9E:12",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "4451452",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "5985398911",
+                    "xmit_packets": "7765094",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "3504213422",
+                    "link": "UP",
+                    "chassis": "",
+                    "port": "",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  },
+                  {
+                    "name": "LAN B \/ AUX",
+                    "linux_device_name": "eth1",
+                    "address": "10.10.7.11",
+                    "mask": "255.255.255.0",
+                    "mac_address": "68:05:CA:0F:DA:95",
+                    "broadcast": "10.10.7.255",
+                    "gateway": "0.0.0.0",
+                    "recv_packets": "836775",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "60806507",
+                    "xmit_packets": "10071763",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "9376260872",
+                    "link": "UP",
+                    "chassis": "2c:36:f8:4c:7d:3f",
+                    "port": "gi3",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  }
+                ]
+              },
+              "timestamp": "2016-02-03T16:21:05.967Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "Joel's DTS-X",
+            "design_code": "Mug0LvOVHR3r",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.jmc-250i",
+            "ref": "control.Mug0LvOVHR3r.core.primary"
+          },
+          "query_ref": [
+            "control.Mug0LvOVHR3r.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "jmc-250i",
+              "Type": "Core",
+              "Model": "Core250i",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "DTS-X",
+              "Type": "Streaming I\/O",
+              "Model": "Q-LAN Transmitter",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "TSC-7",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-BK",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Not Present",
+                "Code": 3
+              }
+            },
+            {
+              "Name": "TSC-8",
+              "Type": "Touch Screen",
+              "Model": "TSC-8",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Not Present",
+                "Code": 3
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.73:6504",
+      "key": "QSC:Boulder:10.104.128.73:6504",
+      "value": {
+        "rev": "1-1f6ca3067b4fe1bc353e460b13b59c01"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.73:6504",
+        "_rev": "1-1f6ca3067b4fe1bc353e460b13b59c01",
+        "QDP": {
+          "device": {
+            "name": "core-joepv-1",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core",
+            "ref": "device.core.core-joepv-1",
+            "lan_a_ip": "10.104.128.73",
+            "lan_a_lldp": "e0:2f:6d:39:39:00+Gi1\/0\/14",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 1000",
+              "device_model_code": "1000",
+              "device_name": "Core-JoePV-1",
+              "firmware_version": "5.1.24",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "",
+                "code_name": "",
+                "role_name": "",
+                "state_code": "0",
+                "state_pretty": "Idle",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime": "",
+                "uptime_seconds": "0"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth2",
+                  "address": "10.104.128.73",
+                  "mask": "255.255.192.0",
+                  "mac_address": "00:1B:21:9B:6F:66",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "112364639",
+                  "recv_errs": "0",
+                  "recv_drop": "0",
+                  "recv_bytes": "19240458694",
+                  "xmit_packets": "3582321",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "955017755",
+                  "link": "UP",
+                  "chassis": "e0:2f:6d:39:39:00",
+                  "port": "Gi1\/0\/14",
+                  "system_name": "us-bo1-3750-sw01.qscaudio.com",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:04.961Z"
+            }
+          },
+          "peripherals": [
+
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.74:6504",
+      "key": "QSC:Boulder:10.104.128.74:6504",
+      "value": {
+        "rev": "1-ed4b3aec8a14290cdf5f5e2f5ea6f462"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.74:6504",
+        "_rev": "1-ed4b3aec8a14290cdf5f5e2f5ea6f462",
+        "QDP": {
+          "device": {
+            "name": "dac-500i",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 500i",
+            "ref": "device.core.dac-500i",
+            "lan_a_ip": "10.104.128.74",
+            "lan_a_lldp": "54:b8:0a:60:5b:9b+",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 500i",
+              "device_model_code": "500",
+              "device_name": "dac-500i",
+              "firmware_version": "0.1.665",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "untitled",
+                "code_name": "65oQiLg2eYPN",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "684358",
+                "uptime": "7 Days 22 Hours 5 Minutes 58 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth2",
+                  "address": "10.104.128.74",
+                  "mask": "255.255.192.0",
+                  "mac_address": "00:60:74:FF:5F:88",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "212087755",
+                  "recv_errs": "5",
+                  "recv_drop": "0",
+                  "recv_bytes": "39637064901",
+                  "xmit_packets": "8998912",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "2237381735",
+                  "link": "UP",
+                  "chassis": "54:b8:0a:60:5b:9b",
+                  "port": "",
+                  "system_name": "",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:10.119Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "untitled",
+            "design_code": "65oQiLg2eYPN",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.dac-500i",
+            "ref": "control.65oQiLg2eYPN.core.primary"
+          },
+          "query_ref": [
+            "control.65oQiLg2eYPN.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "dac-500i",
+              "Type": "Core",
+              "Model": "Core500i",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.77:6504",
+      "key": "QSC:Boulder:10.104.128.77:6504",
+      "value": {
+        "rev": "1-ef96838b8962b04a6bd8acae24a87db8"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.77:6504",
+        "_rev": "1-ef96838b8962b04a6bd8acae24a87db8",
+        "QDP": {
+          "device": {
+            "name": "core-1100-jmcavb",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 1100",
+            "ref": "device.core.core-1100-jmcavb",
+            "lan_a_ip": "10.104.128.77",
+            "lan_a_lldp": "e0:2f:6d:39:39:00+Gi1\/0\/27",
+            "lan_b_ip": "10.10.7.19",
+            "lan_b_lldp": "2c:36:f8:4c:7d:3f+gi2",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 1100",
+              "device_model_code": "1100",
+              "device_name": "Core-1100-JMCAVB",
+              "firmware_version": "5.1.31",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "Joel's 1100 AVB+Dante",
+                "code_name": "MN2raNaSZh4o",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "491721",
+                "uptime": "5 Days 16 Hours 35 Minutes 21 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": [
+                  {
+                    "name": "LAN A",
+                    "linux_device_name": "eth0",
+                    "address": "10.104.128.77",
+                    "mask": "255.255.192.0",
+                    "mac_address": "00:1E:67:77:4F:26",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "438213750",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "226528344064",
+                    "xmit_packets": "457753517",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "429394721987",
+                    "link": "UP",
+                    "chassis": "e0:2f:6d:39:39:00",
+                    "port": "Gi1\/0\/27",
+                    "system_name": "us-bo1-3750-sw01.qscaudio.com",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  },
+                  {
+                    "name": "LAN B",
+                    "linux_device_name": "eth1",
+                    "address": "10.10.7.19",
+                    "mask": "255.255.255.0",
+                    "mac_address": "00:1E:67:77:4F:27",
+                    "broadcast": "10.10.7.255",
+                    "gateway": "0.0.0.0",
+                    "recv_packets": "26557223",
+                    "recv_errs": "17884",
+                    "recv_drop": "0",
+                    "recv_bytes": "2921519296",
+                    "xmit_packets": "75223778",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "22540095764",
+                    "link": "UP",
+                    "chassis": "2c:36:f8:4c:7d:3f",
+                    "port": "gi2",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  }
+                ]
+              },
+              "timestamp": "2016-02-03T16:21:06.054Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "Joel's 1100 AVB+Dante",
+            "design_code": "MN2raNaSZh4o",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.core-1100-jmcavb",
+            "ref": "control.MN2raNaSZh4o.core.primary"
+          },
+          "query_ref": [
+            "stream.*",
+            "control.MN2raNaSZh4o.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "Core-1100-JMCAVB",
+              "Type": "Core",
+              "Model": "Core1100",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "MS-RX-1",
+              "Type": "Streaming I\/O",
+              "Model": "Media Stream Receiver",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Not Present - Disabled",
+                "Code": 3
+              }
+            },
+            {
+              "Name": "Softphone-1",
+              "Type": "Streaming I\/O",
+              "Model": "Softphone",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "DTS-X",
+              "Type": "Streaming I\/O",
+              "Model": "Q-LAN Receiver",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Subwoofer",
+              "Type": "Loudspeaker",
+              "Model": "Generic Speaker",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-1",
+              "Type": "Loudspeaker",
+              "Model": "AD-S32T",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Speaker-2",
+              "Type": "Loudspeaker",
+              "Model": "AD-S32T",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "Amplifier-1",
+              "Type": "Amplifier",
+              "Model": "DPA4.2Q",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "IOFrame-1",
+              "Type": "Peripheral",
+              "Model": "I\/O-Frame",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Missing",
+                "Code": 4
+              }
+            },
+            {
+              "Name": "IOFrame8S-1",
+              "Type": "Peripheral",
+              "Model": "I\/O-Frame8S",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "TSC-3",
+              "Type": "Touch Screen",
+              "Model": "TSC-3",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "TSC-7",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-BK",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Not Present",
+                "Code": 3
+              }
+            },
+            {
+              "Name": "TSC-8",
+              "Type": "Touch Screen",
+              "Model": "TSC-8",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Not Present",
+                "Code": 3
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.83:6504",
+      "key": "QSC:Boulder:10.104.128.83:6504",
+      "value": {
+        "rev": "1-d7b3d5fc3d57b5f6dcada4f323bfd65d"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.83:6504",
+        "_rev": "1-d7b3d5fc3d57b5f6dcada4f323bfd65d",
+        "QDP": {
+          "device": {
+            "name": "core-a18d",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 3100",
+            "ref": "device.core.core-a18d",
+            "lan_a_ip": "10.104.128.83",
+            "lan_a_lldp": "88:f0:77:d7:a2:ff+gi3",
+            "lan_b_ip": "10.104.128.107",
+            "lan_b_lldp": "88:f0:77:d7:a2:ff+gi5",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 3100",
+              "device_model_code": "3100",
+              "device_name": "Core-a18d",
+              "firmware_version": "5.1.32",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "tsc7-usb",
+                "code_name": "WtPxmxJPkhVw",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "90386",
+                "uptime": "1 Day 1 Hour 6 Minutes 26 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": [
+                  {
+                    "name": "LAN A",
+                    "linux_device_name": "eth0",
+                    "address": "10.104.128.83",
+                    "mask": "255.255.192.0",
+                    "mac_address": "00:1E:67:9A:A1:8D",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "31231752",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "5427764690",
+                    "xmit_packets": "8086619",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "1452680321",
+                    "link": "UP",
+                    "chassis": "88:f0:77:d7:a2:ff",
+                    "port": "gi3",
+                    "system_name": "switchd7a2ff",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  },
+                  {
+                    "name": "LAN B",
+                    "linux_device_name": "eth1",
+                    "address": "10.104.128.107",
+                    "mask": "255.255.192.0",
+                    "mac_address": "00:1E:67:9A:A1:8E",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "22717048",
+                    "recv_errs": "2",
+                    "recv_drop": "0",
+                    "recv_bytes": "4084624834",
+                    "xmit_packets": "2194564",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "543681404",
+                    "link": "UP",
+                    "chassis": "88:f0:77:d7:a2:ff",
+                    "port": "gi5",
+                    "system_name": "switchd7a2ff",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  }
+                ]
+              },
+              "timestamp": "2016-02-03T16:21:04.934Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "tsc7-usb",
+            "design_code": "WtPxmxJPkhVw",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.core-a18d",
+            "ref": "control.WtPxmxJPkhVw.core.primary"
+          },
+          "query_ref": [
+            "control.WtPxmxJPkhVw.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "core-a18d",
+              "Type": "Core",
+              "Model": "Core3100",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "tsc7-0501",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-T-BK",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "Fault - Output stream LAN A dropout LAN B broken",
+                "Code": 2
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.92:6504",
+      "key": "QSC:Boulder:10.104.128.92:6504",
+      "value": {
+        "rev": "1-bda71732ca620afd2a2f54266cd96dd3"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.92:6504",
+        "_rev": "1-bda71732ca620afd2a2f54266cd96dd3",
+        "QDP": {
+          "device": {
+            "name": "heylady",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 250i",
+            "ref": "device.core.heylady",
+            "lan_a_ip": "10.104.128.92",
+            "lan_a_lldp": "e0:2f:6d:39:39:00+Gi1\/0\/7",
+            "lan_b_ip": "",
+            "lan_b_lldp": "",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 250i",
+              "device_model_code": "250",
+              "device_name": "heylady",
+              "firmware_version": "5.1.21",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "",
+                "code_name": "",
+                "role_name": "",
+                "state_code": "0",
+                "state_pretty": "Idle",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime": "",
+                "uptime_seconds": "0"
+              },
+              "network_interfaces": {
+                "network_interface": {
+                  "name": "LAN A",
+                  "linux_device_name": "eth0",
+                  "address": "10.104.128.92",
+                  "mask": "255.255.192.0",
+                  "mac_address": "38:60:77:13:8A:18",
+                  "broadcast": "10.104.191.255",
+                  "gateway": "10.104.191.254",
+                  "recv_packets": "349144324",
+                  "recv_errs": "0",
+                  "recv_drop": "0",
+                  "recv_bytes": "62965231417",
+                  "xmit_packets": "7031802",
+                  "xmit_errs": "0",
+                  "xmit_drop": "0",
+                  "xmit_bytes": "2625212959",
+                  "link": "UP",
+                  "chassis": "e0:2f:6d:39:39:00",
+                  "port": "Gi1\/0\/7",
+                  "system_name": "us-bo1-3750-sw01.qscaudio.com",
+                  "port_desc": "",
+                  "vlan_id": ""
+                }
+              },
+              "timestamp": "2016-02-03T16:21:04.949Z"
+            }
+          },
+          "peripherals": [
+
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.128.98:6504",
+      "key": "QSC:Boulder:10.104.128.98:6504",
+      "value": {
+        "rev": "1-3f9fb8569f26d6323389376c669faed2"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.128.98:6504",
+        "_rev": "1-3f9fb8569f26d6323389376c669faed2",
+        "QDP": {
+          "device": {
+            "name": "core-scott",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 110f",
+            "ref": "device.core.core-scott",
+            "lan_a_ip": "10.104.128.98",
+            "lan_a_lldp": "54:b8:0a:60:5b:8b+",
+            "lan_b_ip": "10.104.128.132",
+            "lan_b_lldp": "54:b8:0a:60:5b:8b+",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 110f",
+              "device_model_code": "110",
+              "device_name": "core-scott",
+              "firmware_version": "trunk",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "Justin USB Video Test v2",
+                "code_name": "vSvznfE6YSO6",
+                "role_name": "",
+                "state_code": "2",
+                "state_pretty": "Running",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime_seconds": "62531",
+                "uptime": "17 Hours 22 Minutes 11 Seconds"
+              },
+              "network_interfaces": {
+                "network_interface": [
+                  {
+                    "name": "LAN A",
+                    "linux_device_name": "eth1",
+                    "address": "10.104.128.98",
+                    "mask": "255.255.192.0",
+                    "mac_address": "00:19:0F:25:85:6E",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "62794785",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "11147253409",
+                    "xmit_packets": "12705190",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "1326938401",
+                    "link": "UP",
+                    "chassis": "54:b8:0a:60:5b:8b",
+                    "port": "",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  },
+                  {
+                    "name": "LAN B",
+                    "linux_device_name": "eth0",
+                    "address": "10.104.128.132",
+                    "mask": "255.255.192.0",
+                    "mac_address": "00:19:0F:25:85:6D",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "51382864",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "8494392668",
+                    "xmit_packets": "7583721",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "2098180649",
+                    "link": "UP",
+                    "chassis": "54:b8:0a:60:5b:8b",
+                    "port": "",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  }
+                ]
+              },
+              "timestamp": "2016-02-03T16:21:13.217Z"
+            }
+          },
+          "control": {
+            "role": "core",
+            "design_pretty": "Justin USB Video Test v2",
+            "design_code": "vSvznfE6YSO6",
+            "primary": "1",
+            "redundant": "0",
+            "device_ref": "device.core.core-scott",
+            "ref": "control.vSvznfE6YSO6.core.primary"
+          },
+          "query_ref": [
+            "control.vSvznfE6YSO6.*",
+            "device.ioframe.*"
+          ],
+          "peripherals": [
+            {
+              "Name": "core-scott",
+              "Type": "Core",
+              "Model": "Core110f",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            },
+            {
+              "Name": "tsc7-dwl-2",
+              "Type": "Touch Screen",
+              "Model": "TSC-7-BK",
+              "Location": "Default Location",
+              "Status": {
+                "Message": "OK",
+                "Code": 0
+              }
+            }
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    },
+    {
+      "id": "QSC:Boulder:10.104.130.71:6504",
+      "key": "QSC:Boulder:10.104.130.71:6504",
+      "value": {
+        "rev": "1-dfab218cefcd7654b7c9684e7fb3fec6"
+      },
+      "doc": {
+        "_id": "QSC:Boulder:10.104.130.71:6504",
+        "_rev": "1-dfab218cefcd7654b7c9684e7fb3fec6",
+        "QDP": {
+          "device": {
+            "name": "farm-500i",
+            "type": "core",
+            "platform": "core",
+            "part_number": "Core 500i",
+            "ref": "device.core.farm-500i",
+            "lan_a_ip": "10.104.130.71",
+            "lan_a_lldp": "e0:5f:b9:b2:92:45+gi1\/1\/4",
+            "lan_b_ip": "10.104.128.82",
+            "lan_b_lldp": "e0:5f:b9:b2:92:45+gi1\/1\/20",
+            "aux_a_ip": "",
+            "aux_a_lldp": "",
+            "aux_b_ip": "",
+            "aux_b_lldp": "",
+            "status": {
+              "device_type": "Core",
+              "device_model_pretty": "Core 500i",
+              "device_model_code": "500",
+              "device_name": "farm-500i",
+              "firmware_version": "4.2.54",
+              "password_required": "?",
+              "id_mode": "off",
+              "design": {
+                "pretty_name": "",
+                "code_name": "",
+                "role_name": "",
+                "state_code": "0",
+                "state_pretty": "Idle",
+                "fault_code": "0",
+                "fault_pretty": "No fault",
+                "fault_reason": "",
+                "redundancy_state": "",
+                "redundancy_role": "",
+                "uptime": "",
+                "uptime_seconds": "0"
+              },
+              "network_interfaces": {
+                "network_interface": [
+                  {
+                    "name": "LAN A",
+                    "linux_device_name": "eth1",
+                    "address": "10.104.130.71",
+                    "mask": "255.255.192.0",
+                    "mac_address": "00:04:5F:B2:99:C5",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "2199158604",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "355229760852",
+                    "xmit_packets": "119558929",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "19967314474",
+                    "link": "UP",
+                    "chassis": "e0:5f:b9:b2:92:45",
+                    "port": "gi1\/1\/4",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  },
+                  {
+                    "name": "LAN B",
+                    "linux_device_name": "eth0",
+                    "address": "10.104.128.82",
+                    "mask": "255.255.192.0",
+                    "mac_address": "00:04:5F:B2:99:C4",
+                    "broadcast": "10.104.191.255",
+                    "gateway": "10.104.191.254",
+                    "recv_packets": "2170516200",
+                    "recv_errs": "0",
+                    "recv_drop": "0",
+                    "recv_bytes": "347779344864",
+                    "xmit_packets": "104225835",
+                    "xmit_errs": "0",
+                    "xmit_drop": "0",
+                    "xmit_bytes": "13349451689",
+                    "link": "UP",
+                    "chassis": "e0:5f:b9:b2:92:45",
+                    "port": "gi1\/1\/20",
+                    "system_name": "",
+                    "port_desc": "",
+                    "vlan_id": ""
+                  }
+                ]
+              },
+              "timestamp": "2016-02-03T16:21:04.956Z"
+            }
+          },
+          "peripherals": [
+
+          ]
+        },
+        "company": "QSC",
+        "site": "Boulder"
+      }
+    }
+  ]
+}
