@@ -7,9 +7,10 @@ let statusCodes = ['ok', 'warning', 'OK', 'Error', 'Ok', 'ok', 'OK', 'Warning'];
 //TODO: Stretch goal -- show count of warnings
 
 // using shorthand ES6 'fat arrow'
+// This code demonstrates a 'fluent interface' (aka 'method chaining')
 let result = statusCodes.map( it => it.toLowerCase() )
-                        .filter( it => it === 'warning')
-                        .reduce( count => count + 1, 0 );
+                        // .filter( it => it === 'warning')
+                        // .reduce( count => count + 1, 0 );
 console.log(result);
 
 
@@ -31,19 +32,19 @@ console.log(result);
 //                           return currentValue.toLowerCase();
 //                         });
 // console.log(result);
-
-
-
+//
+//
+//
 // // 2. using longform ES6 'fat arrow'
 // let result = statusCodes.map( (currentValue, index, array) => {
 //                           return currentValue.toLowerCase();
 //                         });
 //
 // console.log(result);
-
-
-
-
+//
+//
+//
+//
 // // 3. using shorthand ES6 'fat arrow'
 // let result = statusCodes.map( currentValue => currentValue.toLowerCase() );
 // console.log(result);
