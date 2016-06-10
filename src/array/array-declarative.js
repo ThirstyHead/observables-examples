@@ -9,8 +9,8 @@ let statusCodes = ['ok', 'warning', 'OK', 'Error', 'Ok', 'ok', 'OK', 'Warning'];
 // using shorthand ES6 'fat arrow'
 // This code demonstrates a 'fluent interface' (aka 'method chaining')
 let result = statusCodes.map( it => it.toLowerCase() )
-                        // .filter( it => it === 'warning')
-                        // .reduce( count => count + 1, 0 );
+                        .filter( it => it === 'warning')
+                        .reduce( count => count + 1, 0 );
 console.log(result);
 
 
