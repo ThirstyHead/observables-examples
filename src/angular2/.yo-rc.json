@@ -1,0 +1,10 @@
+{
+  "generator-mjs": {
+    "githubName": "Scott Davis",
+    "githubEmail": "scott@thirstyhead.com",
+    "githubNameAndEmail": "Scott Davis <scott@thirstyhead.com>",
+    "appName": "angular-2-observables",
+    "appDescription": "Using Observables with Angular2",
+    "appAuthor": "Scott Davis <scott@thirstyhead.com>"
+  }
+}
