@@ -22,7 +22,7 @@ app.use(express.static(web.directory));
 app.use(jsonserver.defaults());
 app.use('/mock', jsonserver.router(dbjson));
 
-let server = app.listen(web.port, web.address, null, () => {
+let server = httpServer.listen(web.port, web.address, null, () => {
     let msg = `Web server running at http://${server.address().address}:${server.address().port}`;
     msg += `\nWeb directory: ${web.directory}`;
     console.log(msg);
@@ -30,4 +30,18 @@ let server = app.listen(web.port, web.address, null, () => {
 
 io.on('connection', (socket) => {
     console.log(`New connection: ${socket.id}`);
+
+    socket.on('client-registration', (msg) => {
+      let out = {};
+      out.message = `New client registration:\n  ${socket.id}`;
+
+      console.log(out.message);
+      console.dir(msg);
+
+      socket.emit('client-registration-acknowledgement', out);
+    });
+
+    socket.on('disconnect', () => {
+      console.log(`Client disconnect: ${socket.id}`);
+    });
 });
