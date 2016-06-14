@@ -4,6 +4,7 @@ import {Component, EventEmitter} from '@angular/core';
 import {BooksService} from './books.service';
 import {BookFormComponent} from './book-form.component';
 import {WebsocketService} from '../websocket/websocket.service';
+import {Observable} from 'rxjs/Observable';
 
 @Component({
   selector: 'my-books',
@@ -64,10 +65,17 @@ export class BooksComponent{
   }
 
   handleHeartbeat(){
-    this.websocketService.socket.on('heartbeat', (msg) => {
-      // console.dir(msg.message.timestamp);
-      // this.heartbeat = msg.message.timestamp;
-      this.heartbeat = new Date(msg.message.timestamp).getTime();
-    });
+    Observable.fromEvent(this.websocketService.socket, 'heartbeat')
+              .map( msg => new Date(msg.message.timestamp).getTime() )
+              .do( newDate => this.heartbeat = newDate )
+              .subscribe();
+
+
+    //Example of consuming a websocket event without an Observable
+    // this.websocketService.socket.on('heartbeat', (msg) => {
+    //   // console.dir(msg.message.timestamp);
+    //   // this.heartbeat = msg.message.timestamp;
+    //   this.heartbeat = new Date(msg.message.timestamp).getTime();
+    // });
   }
 }
