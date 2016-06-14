@@ -58,7 +58,7 @@ export class AppComponent{
 
   ngOnInit() {
     // TODO quit using hardcoded URLs, dammit!
-    this.socket = io();
+    this.socket = io.connect('http://localhost:8000');
 
     // send message
     this.socket.emit('client-registration', {'message':'Hello from the browser (in Angular2)'});
