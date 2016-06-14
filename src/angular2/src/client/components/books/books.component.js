@@ -1,6 +1,6 @@
 'use strict';
 
-import {Component, EventEmitter} from '@angular/core';
+import {Component} from '@angular/core';
 import {BooksService} from './books.service';
 import {BookFormComponent} from './book-form.component';
 import {WebsocketService} from '../websocket/websocket.service';
@@ -23,15 +23,6 @@ export class BooksComponent{
     this.heartbeatObservable$ = undefined;
 
     this.notObservableArray = [];
-
-    // EventEmitter for this component
-    this.listChanged = new EventEmitter();
-    this.listChanged.subscribe( (listChanged) => {
-      console.log("listChanged event caught");
-      this.getBooks();
-    });
-
-
   }
 
   static get parameters(){

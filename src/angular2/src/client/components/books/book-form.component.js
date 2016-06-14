@@ -1,6 +1,6 @@
 'use strict';
 
-import {Component, EventEmitter} from '@angular/core';
+import {Component} from '@angular/core';
 import {NgForm} from '@angular/common';
 import {Book} from './book';
 import {BooksService} from './books.service';
@@ -19,7 +19,6 @@ export class BookFormComponent{
       this.booksService = booksService;
       this.formats = ['Paper', 'PDF', 'EPub'];
       this.book = new Book({});
-      this.listChanged = new EventEmitter();
     }
 
     static get parameters(){
