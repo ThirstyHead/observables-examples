@@ -1,6 +1,6 @@
 'use strict';
 
-import {Component, EventEmitter, ChangeDetectionStrategy} from '@angular/core';
+import {Component, EventEmitter} from '@angular/core';
 import {BooksService} from './books.service';
 import {BookFormComponent} from './book-form.component';
 import {WebsocketService} from '../websocket/websocket.service';
@@ -11,8 +11,7 @@ import {Observable} from 'rxjs/Observable';
   templateUrl: 'components/books/books.component.html',
   styleUrls: ['components/books/books.component.css'],
   directives: [BookFormComponent],
-  outputs: ['listChanged'],
-  changeDetection: ChangeDetectionStrategy.CheckAlways
+  outputs: ['listChanged']
 })
 export class BooksComponent{
   constructor(booksService, websocketService){
