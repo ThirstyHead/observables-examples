@@ -56,7 +56,6 @@ export class AppComponent{
 
   ngOnInit() {
     this.handleClientRegistration();
-    this.handleHeartbeat();
   }
 
   handleClientRegistration(){
@@ -69,13 +68,4 @@ export class AppComponent{
       console.dir(msg);
     });
   }
-
-  handleHeartbeat(){
-    this.websocketService.socket.on('heartbeat', (msg) => {
-      console.dir(msg.message.timestamp);
-    });
-
-  }
-
-
 }

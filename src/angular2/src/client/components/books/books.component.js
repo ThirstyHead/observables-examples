@@ -3,6 +3,7 @@
 import {Component, EventEmitter} from '@angular/core';
 import {BooksService} from './books.service';
 import {BookFormComponent} from './book-form.component';
+import {WebsocketService} from '../websocket/websocket.service';
 
 @Component({
   selector: 'my-books',
@@ -12,10 +13,14 @@ import {BookFormComponent} from './book-form.component';
   outputs: ['listChanged']
 })
 export class BooksComponent{
-  constructor(booksService){
+  constructor(booksService, websocketService){
     this.title = "Books";
     this.booksService = booksService;
+    this.websocketService = websocketService;
     this.books = [];
+    this.heartbeat = undefined;
+
+
 
     // EventEmitter for this component
     this.listChanged = new EventEmitter();
@@ -28,11 +33,13 @@ export class BooksComponent{
   }
 
   static get parameters(){
-    return [[BooksService]];
+    return [[BooksService], [WebsocketService]];
   }
 
   ngOnInit(){
     this.getBooks();
+    this.handleHeartbeat();
+
   }
 
   getBooks(){
@@ -56,5 +63,11 @@ export class BooksComponent{
 
   }
 
-
+  handleHeartbeat(){
+    this.websocketService.socket.on('heartbeat', (msg) => {
+      // console.dir(msg.message.timestamp);
+      // this.heartbeat = msg.message.timestamp;
+      this.heartbeat = new Date(msg.message.timestamp).getTime();
+    });
+  }
 }
