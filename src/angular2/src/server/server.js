@@ -41,6 +41,10 @@ io.on('connection', (socket) => {
       socket.emit('client-registration-acknowledgement', out);
     });
 
+    socket.on('new-book', (msg) => {
+      socket.emit('new-book', msg);
+    });
+
     socket.on('disconnect', () => {
       console.log(`Client disconnect: ${socket.id}`);
     });

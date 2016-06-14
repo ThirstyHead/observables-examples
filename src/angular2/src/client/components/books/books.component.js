@@ -23,6 +23,8 @@ export class BooksComponent{
     this.heartbeatObservable$ = undefined;
 
     this.notObservableArray = [];
+
+    this.newBook$ = undefined;
   }
 
   static get parameters(){
@@ -33,7 +35,15 @@ export class BooksComponent{
     this.getBooks();
     this.handleHeartbeat();
     this.heartbeatObservable$ = Observable.fromEvent(this.websocketService.socket, 'heartbeat')
-              .map( msg => new Date(msg.message.timestamp).getTime() )
+              .map( msg => new Date(msg.message.timestamp).getTime() );
+
+    this.newBook$ = Observable.fromEvent(this.websocketService.socket, 'new-book')
+              .subscribe(
+                msg => this.getBooks(),
+                error => this.errorMessage = error
+              );
+
+
   }
 
   getBooks(){

@@ -4,6 +4,8 @@ import {Component} from '@angular/core';
 import {NgForm} from '@angular/common';
 import {Book} from './book';
 import {BooksService} from './books.service';
+import {WebsocketService} from '../websocket/websocket.service';
+
 
 @Component({
     selector: 'my-book-form',
@@ -15,14 +17,15 @@ import {BooksService} from './books.service';
     outputs: ['listChanged']
 })
 export class BookFormComponent{
-    constructor(booksService){
+    constructor(booksService, websocketService){
       this.booksService = booksService;
+      this.websocketService = websocketService;
       this.formats = ['Paper', 'PDF', 'EPub'];
       this.book = new Book({});
     }
 
     static get parameters(){
-      return [[BooksService]];
+      return [[BooksService], [WebsocketService]];
     }
 
     dialogClose(e){
@@ -37,6 +40,7 @@ export class BookFormComponent{
                          item => {
                            this.book = item;
                            console.dir(this.book);
+                           this.websocketService.socket.emit('new-book', {'message': this.book})
                          },
                          err => console.error(err)
                        );
