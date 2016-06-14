@@ -20,7 +20,7 @@ export class BooksComponent{
     this.websocketService = websocketService;
     this.books = [];
     this.heartbeat = undefined;
-
+    this.heartbeatObservable$ = undefined;
 
 
     // EventEmitter for this component
@@ -40,7 +40,8 @@ export class BooksComponent{
   ngOnInit(){
     this.getBooks();
     this.handleHeartbeat();
-
+    this.heartbeatObservable$ = Observable.fromEvent(this.websocketService.socket, 'heartbeat')
+              .map( msg => new Date(msg.message.timestamp).getTime() )
   }
 
   getBooks(){

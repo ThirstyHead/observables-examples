@@ -5,7 +5,8 @@
 </h2>
 
 <div class="">
-  The current time is {{heartbeat | date:'medium'}}
+  The current time is {{heartbeat | date:'medium'}}<br>
+  The current time (directly from an Observable) is {{ heartbeatObservable$ | async | date:'medium'}}
 </div>
 
 
