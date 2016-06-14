@@ -17,6 +17,9 @@ import {SidebarComponent} from '../sidebar/sidebar.component';
 import {BooksComponent} from '../books/books.component';
 import {AuthorsComponent} from '../authors/authors.component';
 
+// WebSockets
+import * as io from 'socket.io-client';
+
 @Component({
   selector: 'my-app',
   directives: [ROUTER_DIRECTIVES, SidebarComponent],
@@ -41,6 +44,7 @@ export class AppComponent{
   constructor(router){
     this.title = "My First Angular 2 App";
     this.router = router;
+    this.socket = undefined;
   }
 
   // Angular 2 Dependency Injection for ECMAScript 6
@@ -53,6 +57,17 @@ export class AppComponent{
   }
 
   ngOnInit() {
+    // TODO quit using hardcoded URLs, dammit!
+    this.socket = io();
+
+    // send message
+    this.socket.emit('client-registration', {'message':'Hello from the browser (in Angular2)'});
+
+    // receive message
+    this.socket.on('client-registration-acknowledgement', (msg) => {
+      console.log('Websocket: client-registration-acknowledgement');
+      console.dir(msg);
+    });
 
   }
 
