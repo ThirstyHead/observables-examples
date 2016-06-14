@@ -9,6 +9,14 @@
   The current time (directly from an Observable) is {{ heartbeatObservable$ | async | date:'medium'}}
 </div>
 
+<div class="">
+  Here is my observable array:
+  <ul>
+    <li *ngFor='let d of notObservableArray'>{{d | date:'medium' }}</li>
+  </ul>
+</div>
+
+
 
 <paper-button raised onclick="bookDialog.toggle()">New</paper-button>
 

@@ -1,6 +1,6 @@
 'use strict';
 
-import {Component, EventEmitter} from '@angular/core';
+import {Component, EventEmitter, ChangeDetectionStrategy} from '@angular/core';
 import {BooksService} from './books.service';
 import {BookFormComponent} from './book-form.component';
 import {WebsocketService} from '../websocket/websocket.service';
@@ -11,7 +11,8 @@ import {Observable} from 'rxjs/Observable';
   templateUrl: 'components/books/books.component.html',
   styleUrls: ['components/books/books.component.css'],
   directives: [BookFormComponent],
-  outputs: ['listChanged']
+  outputs: ['listChanged'],
+  changeDetection: ChangeDetectionStrategy.CheckAlways
 })
 export class BooksComponent{
   constructor(booksService, websocketService){
@@ -21,6 +22,11 @@ export class BooksComponent{
     this.books = [];
     this.heartbeat = undefined;
     this.heartbeatObservable$ = undefined;
+
+    this.heartbeats = [];
+    this.heartbeats$ = undefined;
+
+    this.notObservableArray = [];
 
 
     // EventEmitter for this component
@@ -42,6 +48,8 @@ export class BooksComponent{
     this.handleHeartbeat();
     this.heartbeatObservable$ = Observable.fromEvent(this.websocketService.socket, 'heartbeat')
               .map( msg => new Date(msg.message.timestamp).getTime() )
+
+     this.heartbeats$ = Observable.from(this.heartbeats);
   }
 
   getBooks(){
@@ -66,9 +74,21 @@ export class BooksComponent{
   }
 
   handleHeartbeat(){
+    // for the individual value
     Observable.fromEvent(this.websocketService.socket, 'heartbeat')
               .map( msg => new Date(msg.message.timestamp).getTime() )
               .do( newDate => this.heartbeat = newDate )
+              .subscribe();
+
+    // for the array of heartbeats
+    Observable.fromEvent(this.websocketService.socket, 'heartbeat')
+              .map( msg => new Date(msg.message.timestamp).getTime() )
+              // .do( newDate => this.heartbeats.push(newDate) )
+              .do( newDate => {
+                let tmp = this.notObservableArray;
+                tmp.push(newDate);
+                this.notObservableArray = tmp;
+              })
               .subscribe();
 
 
