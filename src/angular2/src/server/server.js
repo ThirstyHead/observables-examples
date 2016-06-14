@@ -45,3 +45,10 @@ io.on('connection', (socket) => {
       console.log(`Client disconnect: ${socket.id}`);
     });
 });
+
+setInterval(sendHeartbeat, 1000);
+
+function sendHeartbeat(){
+  let now = new Date();
+  io.emit('heartbeat', { 'message': {'timestamp': now}});
+}

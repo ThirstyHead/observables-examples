@@ -59,7 +59,11 @@ export class AppComponent{
   ngOnInit() {
     // TODO quit using hardcoded URLs, dammit!
     this.socket = io.connect('http://localhost:8000');
+    this.handleClientRegistration();
+    this.handleHeartbeat();
+  }
 
+  handleClientRegistration(){
     // send message
     this.socket.emit('client-registration', {'message':'Hello from the browser (in Angular2)'});
 
@@ -68,7 +72,14 @@ export class AppComponent{
       console.log('Websocket: client-registration-acknowledgement');
       console.dir(msg);
     });
+  }
+
+  handleHeartbeat(){
+    this.socket.on('heartbeat', (msg) => {
+      console.dir(msg.message.timestamp);
+    });
 
   }
+
 
 }
