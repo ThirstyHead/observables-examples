@@ -37,7 +37,6 @@ export class BookFormComponent{
                          item => {
                            this.book = item;
                            console.dir(this.book);
-                           this.listChanged.next('new book');
                          },
                          err => console.error(err)
                        );
