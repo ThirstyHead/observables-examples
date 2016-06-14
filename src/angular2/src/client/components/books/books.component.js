@@ -23,11 +23,7 @@ export class BooksComponent{
     this.heartbeat = undefined;
     this.heartbeatObservable$ = undefined;
 
-    this.heartbeats = [];
-    this.heartbeats$ = undefined;
-
     this.notObservableArray = [];
-
 
     // EventEmitter for this component
     this.listChanged = new EventEmitter();
@@ -48,8 +44,6 @@ export class BooksComponent{
     this.handleHeartbeat();
     this.heartbeatObservable$ = Observable.fromEvent(this.websocketService.socket, 'heartbeat')
               .map( msg => new Date(msg.message.timestamp).getTime() )
-
-     this.heartbeats$ = Observable.from(this.heartbeats);
   }
 
   getBooks(){
