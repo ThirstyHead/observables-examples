@@ -1,3 +1,3 @@
 
 Pull in RxJS on the fly:
-<script src="https://npmcdn.com/rxjs@5.0.0-beta.8/bundles/Rx.umd.js"></script>
+<script src="https://unpkg.com/rxjs@5.0.0-beta.8/bundles/Rx.umd.js"></script>
